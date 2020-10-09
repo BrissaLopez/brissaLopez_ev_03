@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
         libros.add("Farenheit");
         libros.add("Revival");
         libros.add("El Alquimista");
+        libros.add("El Poder");
+        libros.add("Despertar");
     }
 
     public void toGithub(View v){

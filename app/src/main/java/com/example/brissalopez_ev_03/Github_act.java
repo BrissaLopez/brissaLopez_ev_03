@@ -33,6 +33,7 @@ public class Github_act extends AppCompatActivity {
     }
 
 
+    // Intenté hacer que se mostrara el texto en el textview sin usar un button, sino directamente al cambiar de opción en el spinner, pero no lo logré.
     public void muestraTexto(View v){
 /*
         if(spin.getSelectedItem().toString().equals("Farenheit")){
@@ -45,7 +46,6 @@ public class Github_act extends AppCompatActivity {
             muestraDatos.setText("El valor de: " + spin.getSelectedItem().toString() + " es $45000");
         } */
 
-
         libro = spin.getSelectedItem().toString();
         switch (libro){
             case "Farenheit":
@@ -56,6 +56,12 @@ public class Github_act extends AppCompatActivity {
                 break;
             case "El Alquimista":
                 muestraDatos.setText("El valor de: " + libro+ " es $45000");
+                break;
+            case "El Poder":
+                muestraDatos.setText("El valor de " + libro + " es $88000");
+                break;
+            case "Despertar":
+                muestraDatos.setText("El valor de " + libro + " es $156000");
                 break;
             default:
                 muestraDatos.setText("Hay un error al seleccionar un libro. Intente de nuevo.");

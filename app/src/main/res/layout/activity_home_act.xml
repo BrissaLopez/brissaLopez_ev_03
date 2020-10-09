@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Home_act">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="179dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginBottom="376dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gatopulpocool" />
 </androidx.constraintlayout.widget.ConstraintLayout>
