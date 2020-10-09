@@ -49,10 +49,10 @@ public class Github_act extends AppCompatActivity {
         libro = spin.getSelectedItem().toString();
         switch (libro){
             case "Farenheit":
-                muestraDatos.setText("El valor de "+ libro + " es $5000");
+                muestraDatos.setText("El valor de "+ libro + " es $7000");
                 break;
             case "Revival":
-                muestraDatos.setText("El valor de: " + libro + " es $12000");
+                muestraDatos.setText("El valor de: " + libro + " es $22000");
                 break;
             case "El Alquimista":
                 muestraDatos.setText("El valor de: " + libro+ " es $45000");
